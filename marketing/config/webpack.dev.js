@@ -9,8 +9,11 @@ const devConfig = {
     historyApiFallback: {
       index: 'index.html',
     },
-    plugins: [new HtmlWebpackPlugin({ template: './public/index.html' })],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './public/index.html',
+    }),
+  ],
 };
-
 module.exports = merge(commonConfig, devConfig);
