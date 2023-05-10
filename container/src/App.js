@@ -1,8 +1,12 @@
 import React from 'react';
-import { marketingMount } from 'marketing/MarketingIndex';
-
-console.log(marketingMount);
+import MarketingApp from './components/MarketingApp';
 
 export default function App() {
-  return <h1>Container</h1>;
+  return (
+    <div>
+      <h1>Container</h1>
+      <hr />
+      <MarketingApp />
+    </div>
+  );
 }
