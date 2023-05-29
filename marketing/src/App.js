@@ -9,12 +9,12 @@ export default function App() {
     <div>
       marketing
       {/* <StylesProvider> */}
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes>
           <Route exact path="/pricing" element={<Pricing />} />
           <Route exact path="/" element={<Album />} />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
       {/* </StylesProvider> */}
     </div>
   );
