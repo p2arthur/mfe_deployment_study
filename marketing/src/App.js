@@ -13,7 +13,6 @@ export default function App() {
           <Routes>
             <Route exact path="/pricing" element={<Pricing />} />
             <Route exact path="/album" element={<Album />} />
-            <div>marketingmarketing</div>
           </Routes>
         </BrowserRouter>
       </StylesProvider>
