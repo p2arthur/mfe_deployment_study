@@ -6,7 +6,7 @@ export default function App() {
     <div>
       <h1>Container 12</h1>
       <hr />
-      <MarketingApp />
+      {/* <MarketingApp /> */}
     </div>
   );
 }
