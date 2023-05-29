@@ -11,8 +11,8 @@ export default function App() {
       <StylesProvider>
         <BrowserRouter>
           <Routes>
-            {/* <Route exact path="/pricing" element={<Pricing />} />
-            <Route exact path="/" element={<Album />} /> */}
+            <Route exact path="/pricing" element=<Pricing /> />
+            <Route exact path="/album" element=<Album /> />
           </Routes>
         </BrowserRouter>
       </StylesProvider>
