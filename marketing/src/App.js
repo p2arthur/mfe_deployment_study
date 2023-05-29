@@ -7,7 +7,7 @@ import Pricing from './components/Pricing';
 export default function App() {
   return (
     <div>
-      <>a</>
+      <div>a</div>
       <StylesProvider>
         <BrowserRouter>
           <Routes>
