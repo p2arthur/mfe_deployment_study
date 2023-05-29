@@ -8,14 +8,14 @@ export default function App() {
   return (
     <div>
       aaaaa
-      {/* <StylesProvider>
+      <StylesProvider>
         <BrowserRouter>
           <Routes>
             <Route exact path="/pricing" element={<Pricing />} />
-            <Route exact path="/albums" element={<Album />} />
+            {/* <Route exact path="/albums" element={<Album />} /> */}
           </Routes>
         </BrowserRouter>
-      </StylesProvider> */}
+      </StylesProvider>
     </div>
   );
 }
