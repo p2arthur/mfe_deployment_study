@@ -11,7 +11,7 @@ export default function App() {
         <BrowserRouter>
           <Routes>
             <Route exact path="/pricing" element={<Pricing />} />
-            <Route exact path="/" element={<Album />} />
+            <Route exact path="/albums" element={<Album />} />
           </Routes>
         </BrowserRouter>
       </StylesProvider>
