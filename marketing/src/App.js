@@ -7,14 +7,15 @@ import Pricing from './components/Pricing';
 export default function App() {
   return (
     <div>
-      <StylesProvider>
+      <Pricing />
+      {/* <StylesProvider>
         <BrowserRouter>
           <Routes>
             <Route exact path="/pricing" element={<Pricing />} />
             <Route exact path="/albums" element={<Album />} />
           </Routes>
         </BrowserRouter>
-      </StylesProvider>
+      </StylesProvider> */}
     </div>
   );
 }
