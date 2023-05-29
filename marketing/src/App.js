@@ -7,15 +7,15 @@ import Pricing from './components/Pricing';
 export default function App() {
   return (
     <div>
-      Marketing
-      {/* <StylesProvider>
+      marketing
+      <StylesProvider>
         <BrowserRouter>
           <Routes>
             <Route exact path="/pricing" element={<Pricing />} />
             <Route exact path="/" element={<Album />} />
           </Routes>
         </BrowserRouter>
-      </StylesProvider> */}
+      </StylesProvider>
     </div>
   );
 }
