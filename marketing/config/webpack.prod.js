@@ -3,13 +3,11 @@ const commConfig = require('./webpack.common');
 const packageJson = require('../package.json');
 const { merge } = require('webpack-merge');
 
-const domain = process.env.PRODUCTION_DOMAIN;
-
 const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: '/marketing/latest/',
+    publicPath: 'marketing/latest/',
   },
 
   plugins: [
